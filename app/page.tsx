@@ -32,9 +32,8 @@ export default function Page() {
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
         </div>
-            <Image src="/hero-desktop.png" width={1000} height={760} className="hidden md:block" alt="Screenshots of the dashboard project showing desktop version" />
+            <Image src="/hero-desktop.png" width={560} height={760} className="hidden md:block" alt="Screenshots of the dashboard project showing desktop version" />
             <Image src="/hero-desktop.png" width={560} height={620} className="display md:block" alt="Screenshots of the dashboard project showing desktop version" />
-
       </div>
     </main>
   );
